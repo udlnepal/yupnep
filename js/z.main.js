@@ -17,6 +17,11 @@
 
 
 $('.menu-item a').addClass('nav-link');
+$('.menu-item-has-children').addClass('dropdown');
 
+$('.sub-menu').addClass('dropdown-menu');
+$('.dropdown-menu li').addClass('dropdown-item');
+$('.menu-item-has-children.dropdown a').attr('data-toggle', 'dropdown');
+//$('.menu-item-has-children.dropdown a:after').html("<span class="+"'icon-arrow-down'"+">"+"</span>");
 /* write above here */
 });
