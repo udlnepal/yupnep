@@ -1,0 +1,13 @@
+{
+    "name": "YupNep Search Theme",
+    "description": "Find Anything Everthing Right Now Right Here",
+    "version": "1.0",
+    "author": "Sumit Maharjan",
+    "author_email": "timusumit@gmail.com",
+    "author_url": "http://www.sumitmaharjan.com.np",
+    "requires": "4.0",
+    "assets": {
+        "css": [ "css/style.css", "css/bootstrap.min.css" ],
+        "js": [ "js/z.main.js" ]
+    }    
+}

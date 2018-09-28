@@ -83,8 +83,8 @@
         </div>
     </div>
  <!-- SLIDER -->
-    <section class="slider d-flex align-items-center">
-        <!-- <img src="images/slider.jpg" class="img-fluid" alt="#"> -->
+    <!-- <section class="slider d-flex align-items-center">
+   
         <div class="container">
             <div class="row d-flex justify-content-center">
                 <div class="col-md-12">
@@ -115,6 +115,6 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!--// SLIDER -->
     <!--//END HEADER -->
