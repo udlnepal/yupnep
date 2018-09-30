@@ -1,3 +1,4 @@
+
 <footer class="main-block dark-bg">
         <div class="container">
             <div class="row">
@@ -24,6 +25,6 @@
     <script src="wp-content/themes/yupnep/js/bootstrap.min.js"></script> -->
 
 
-
+<?php wp_footer(); ?>
 </body>
 <html>
