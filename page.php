@@ -4,7 +4,7 @@ get_header();
 
 ?>
 
-<?php if (is_page('sample-page')){ ?>
+<?php if (is_page('home')){ ?>
 <?php if(have_posts()):
 while(have_posts()):the_post(); ?>
  <section class="slider d-flex align-items-center">
