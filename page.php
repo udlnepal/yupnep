@@ -21,8 +21,8 @@ while(have_posts()):the_post(); ?>
 <?php the_title(); ?>
 
 </h1>
-                                    <h5>Let's uncover the best places to eat, drink, and shop nearest to you.</h5>
-                                </div>
+                                    <!-- <h5>Let's uncover the best places to eat, drink, and shop nearest to you.</h5>
+ -->                                </div>
                             </div>
                         </div>
                         <div class="row d-flex justify-content-center">
@@ -50,6 +50,17 @@ else:
 	echo '<p>No Content Found</p>';
 endif;?>
 
+<!-- testing-->
+
+<div class="row">
+<div class="jumbotron">
+   <?php wpbdp_the_directory_categories(); ?>
+</div>
+</div>
+
+<!-- testing-->
+
+
     <!--//END HEADER -->
     <!--============================= FIND PLACES =============================-->
     <section class="main-block">
@@ -68,7 +79,7 @@ endif;?>
                             <figure class="effect-ruby">
                                 <img src="<?php  echo get_template_directory_uri(); ?>/images/find-place1.jpg" class="img-fluid" alt="img13" />
                                 <figcaption>
-                                    <h5>Nightlife </h5>
+                                    <h5>Night Life </h5>
                                     <p>385 Listings</p>
                                 </figcaption>
                             </figure>
@@ -464,7 +475,22 @@ endif;?>
     <!--//END ADD LISTING -->
     <!--============================= FOOTER =============================-->
 
-<?php }?>
+<?php }else{?>
+<?php 
+ 
+if(have_posts()):
+while(have_posts()):the_post(); ?>
+<article class="post">
+<h2><a href="<?php  the_permalink();?>"><?php the_title(); ?></a></h2>
+<p><?php the_content();?></p>
+</article>  
+<?php endwhile;
+else:
+    echo '<p>No Content Found</p>';
+endif;
+}
+?>
+
 
     <?php 
     get_footer();
