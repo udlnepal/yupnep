@@ -52,11 +52,7 @@ endif;?>
 
 <!-- testing-->
 
-<div class="row">
-<div class="jumbotron">
-   <?php wpbdp_the_directory_categories(); ?>
-</div>
-</div>
+
 
 <!-- testing-->
 
